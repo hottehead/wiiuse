@@ -256,6 +256,11 @@ void wiiuse_set_ir_position(struct wiimote_t* wm, enum ir_position_t pos) {
 
 			return;
 
+		case WIIUSE_IR_CENTER:
+			wm->ir.offset[0] = 0;
+			wm->ir.offset[1] = 0;
+
+			return;
 		default:
 			return;
 	};
