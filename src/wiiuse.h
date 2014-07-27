@@ -247,7 +247,8 @@
 /** @brief IR correction types */
 typedef enum ir_position_t {
 	WIIUSE_IR_ABOVE,
-	WIIUSE_IR_BELOW
+	WIIUSE_IR_BELOW,
+	WIIUSE_IR_CENTER
 } ir_position_t;
 
 
