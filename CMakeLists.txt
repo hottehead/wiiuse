@@ -10,7 +10,7 @@ project(WiiUse)
 ###
 # Set up options
 ###
-
+set(CMAKE_BUILD_TYPE Release)
 if(NOT CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR)
 	set(SUBPROJECT YES)
 endif()
